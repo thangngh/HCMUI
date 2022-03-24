@@ -688,12 +688,12 @@
                 <div class="main-container">
                     <div class="flex flex-col lg:flex-row">
                         <div class="left w-full lg:w-3/5">
-                            <div class="slider-container">
+                            <div class="slider-container mx-2">
                                 <div class="carousel-inner text-white relative shadow-2xl bg-white-500">
                                     <div class="carousel-item">
                                         <img src="./asset/img/img_sl_1.jpg"
                                             alt="Tuyên dương 48 gương Người con hiếu thảo cấp Thành"
-                                            class="bg-center bg-contain relative object-cover w-full h-96 ">
+                                            class="bg-center bg-contain relative object-cover w-full h-96 lg:max-h-screen">
                                         <div class="infor absolute top-4">
                                             <div class="flex justify-center ">
                                                 <div class="title bg-blue-400 mr-3 text-xs p-3">
@@ -715,7 +715,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img src="./asset/img/img_sl_2.jpg" alt="hội trẻ em"
-                                            class="bg-center bg-contain relative object-cover w-full h-96 ">
+                                            class="bg-center bg-contain relative object-cover w-full h-96 lg:max-h-screen">
                                         <div class="infor absolute top-4">
                                             <div class="flex justify-center ">
                                                 <div class="title bg-blue-400 mr-3 text-xs p-3">
@@ -738,7 +738,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img src="./asset/img/img_sl_3.jpg" alt="Tuyên dương "
-                                            class="bbg-center bg-contain relative object-cover w-full h-96 ">
+                                            class="bbg-center bg-contain relative object-cover w-full h-96 lg:max-h-screen">
                                         <div class="infor absolute top-4">
                                             <div class="flex justify-center ">
                                                 <div class="title bg-blue-400 mr-3 text-xs p-3">
@@ -831,8 +831,12 @@
                         </div>
                         <div class="right w-full lg:w-2/5 lg:ml-20">
                             <div class="widget mt-2">
-                                <div class="list-widget h-10"></div>
-                                <div class="detail-widget border-t-2 border-blue-400 relative">
+                                <div class="img-widget">
+                                    <a class="block relative" href="#"><img
+                                            class="bg-center object-cover w-full lg:h-full" src="/asset/img/LG.jpg"
+                                            alt="lg"></a>
+                                </div>
+                                <div class="detail-widget block mt-16 border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
                                         <a href="#" class="font-normal uppercase">
                                             Tin mới
@@ -856,13 +860,27 @@
                                             Cùng kiến tạo, cùng hành động
                                         </a></li>
                                 </ul>
+                                <div class="img-widget my-2">
+                                    <a class="block relative" href="#"><img
+                                            class="bg-center object-cover w-full lg:h-full"
+                                            src="/asset/img/VanBanDoanHoiDoi.jpg" alt="vbdh"></a>
+                                </div>
+                                <div class="img-widget my-2">
+                                    <a class="block relative" href="#"><img
+                                            class="bg-center object-cover w-full lg:h-full" src="/asset/img/vndt.jpg"
+                                            alt="vndt"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="main-container">
+                    <img class="bg-center bg-contain object-cover h-48 lg:h-60 w-full lg:h-full px-2"
+                        src="/asset/img/CDtretieubieuTPHCM.jpg" alt="cdttb">
+                </div>
+                <div class="main-container">
                     <div class="flex flex-col lg:flex-row">
-                        <div class="left w-full lg:w-3/5">
+                        <div class="left w-full lg:w-2/3">
                             <div class="good-story relative mt-16">
                                 <div class="detail-good-story  border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-0 p-3">
@@ -871,13 +889,13 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div class="flex justify-center">
-                                    <div class="good-story-detail w-3/5 mr-7 hidden lg:block">
+                                <div class="flex flex-col lg:flex-row lg:justify-center">
+                                    <div class="good-story-detail w-full lg:w-3/5 mr-7">
                                         <div class="card-img flex flex-col">
                                             <a href="#" class="card-img-link p-2.5">
                                                 <img src="./asset/img/img_1.jpg" alt="card-img"
                                                     title="Y bác sĩ tỉnh Đồng Tháp kết thúc công tác tham gia phòng chống dịch tại TP.HCM."
-                                                    class="bg-center bg-contain ">
+                                                    class="bg-center bg-contain">
                                             </a>
                                             <div class="card-detail p-2.5">
                                                 <a href="#"
@@ -992,8 +1010,8 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div class="flex justify-center">
-                                    <div class="good-story-detail w-3/5 mr-7 hidden lg:block">
+                                <div class="flex flex-col lg:flex-row lg:justify-center">
+                                    <div class="good-story-detail w-full lg:w-3/5 mr-7">
                                         <div class="card-img flex flex-col">
                                             <a href="#" class="card-img-link p-2.5">
                                                 <img src="./asset/img/img_1.jpg" alt="card-img"
@@ -1113,8 +1131,8 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div class="flex justify-center">
-                                    <div class="good-story-detail w-3/5 mr-7 hidden lg:block">
+                                <div class="flex flex-col lg:flex-row lg:justify-center">
+                                    <div class="good-story-detail w-full lg:w-3/5 mr-7">
                                         <div class="card-img flex flex-col">
                                             <a href="#" class="card-img-link p-2.5">
                                                 <img src="./asset/img/img_1.jpg" alt="card-img"
@@ -1239,8 +1257,8 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div class="flex justify-center">
-                                    <div class="good-story-detail w-3/5 mr-7 hidden lg:block">
+                                <div class="flex flex-col lg:flex-row lg:justify-center">
+                                    <div class="good-story-detail w-full lg:w-3/5 mr-7">
                                         <div class="card-img flex flex-col">
                                             <a href="#" class="card-img-link p-2.5">
                                                 <img src="./asset/img/img_1.jpg" alt="card-img"
@@ -1360,8 +1378,8 @@
                                         </a>
                                     </h4>
                                 </div>
-                                <div class="flex justify-center">
-                                    <div class="good-story-detail w-3/5 mr-7 hidden lg:block">
+                                <div class="flex flex-col lg:flex-row lg:justify-center">
+                                    <div class="good-story-detail w-full lg:w-3/5 mr-7">
                                         <div class="card-img flex flex-col">
                                             <a href="#" class="card-img-link p-2.5">
                                                 <img src="./asset/img/img_1.jpg" alt="card-img"
@@ -1474,7 +1492,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="right w-full lg:w-2/5 lg:ml-20">
+                        <div class="right w-full lg:w-1/3 lg:ml-20">
                             <div class="widget my-16">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
@@ -1484,25 +1502,49 @@
                                     </h4>
                                 </div>
                                 <div class="slider-widget my-12">
-                                    <div class="widget-carousel ">
+                                    <div class="widget-carousel w-auto">
                                         <div
                                             class="carousel-inner relative overflow-hidden w-full relative shadow-2xl bg-white-500">
                                             <div class="carousel-item">
                                                 <img src="./asset/img/w_MoiNgayMotTinTot01.jpg"
                                                     alt="Tuyên dương 48 gương  thảo cấp Thành"
-                                                    class="bg-center bg-contain object-cover w-full h-80">
+                                                    class="bg-center bg-contain object-cover ">
                                             </div>
                                             <div class="carousel-item ">
                                                 <img src="./asset/img/w_MoiNgayMotTinTot014.jpg" alt="hội trẻ"
-                                                    class="bg-center bg-contain object-cover w-full h-80">
+                                                    class="bg-center bg-contain object-cover ">
                                             </div>
                                             <div class="carousel-item ">
                                                 <img src="./asset/img/w_MoiNgayMotTinTot021.jpg" alt="dương "
-                                                    class="bg-center bg-contain object-cover w-full h-80">
+                                                    class="bg-center bg-contain object-cover ">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full" src="/asset/img/infgr.jpg"
+                                    alt="infgr">
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full" src="/asset/img/thtn.png"
+                                    alt="thtn">
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full" src="/asset/img/tyv.jpg"
+                                    alt="tyv">
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full" src="/asset/img/xdpc.jpg"
+                                    alt="xdpc">
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full" src="/asset/img/btv.png"
+                                    alt="btv">
+                            </div>
+                            <div class="widget-img my-4">
+                                <img class="bg-center bg-contain object-cover w-full"
+                                    src="/asset/img/NhungQuyenSachSongCungTuoiTre.jpg" alt="ngtt">
                             </div>
                             <div class="widget my-20">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
@@ -1586,7 +1628,7 @@
             <div class="main-container">
                 <div class="container mx-auto pt-5 w-full lg:w-5/6">
                     <div class="flex flex-col lg:flex-row">
-                        <div class="left w-full lg:w-3/5">
+                        <div class="left w-full lg:w-2/3">
                             <div class="news-f relative mt-16">
                                 <div class="detail-good-story  border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
@@ -1637,9 +1679,12 @@
 
                                 </div>
                             </div>
+                            <div class="text-right p-3">
+                                <a href="#" class=" bg-blue-400 p-3 font-normal ">Xem thêm</a>
+                            </div>
                         </div>
-                        <div class="right w-full lg:w-2/5 lg:ml-20">
-                            <div class="widget my-16">
+                        <div class="right w-full lg:w-1/3 lg:ml-20">
+                            <div class="widget my-16 mx-4">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
                                         <span class="font-normal uppercase">
@@ -1652,7 +1697,7 @@
                                     >
                                 </div>
                             </div>
-                            <div class="widget my-16">
+                            <div class="widget my-16 mx-4">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
                                         <span class="font-normal uppercase">
@@ -1685,7 +1730,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="widget my-16">
+                            <div class="widget my-16 mx-4">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
                                         <span class="font-normal uppercase">
@@ -1710,7 +1755,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="widget my-16">
+                            <div class="widget my-16 mx-4">
                                 <div class="detail-widget border-t-2 border-blue-400 relative">
                                     <h4 class="bg-blue-400 absolute bottom-1 p-3">
                                         <span class="font-normal uppercase">
@@ -1732,19 +1777,13 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="widget-image mx-4">
+                                <img class="bg-contain bg-center object-center w-full" src="/asset/img/trien lam.jpg"
+                                    alt="tl">
+                            </div>
                         </div>
 
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="next-new">
-            <div class="container mx-auto w-full my-4 lg:w-5/6 ">
-                <div class="flex flex-col lg:flex-row">
-                    <div class="left text-right w-full md:w-3/5 lg:w-3/5">
-                        <a href="#" class=" bg-blue-400 p-3 font-normal ">Xem thêm</a>
-                    </div>
-                    <div class="right w-2/5 ml-20"></div>
                 </div>
             </div>
         </div>
