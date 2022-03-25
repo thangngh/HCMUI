@@ -54,3 +54,12 @@ window.addEventListener('scroll', () => {
         ? bkTop.classList.add('active')
         : bkTop.classList.remove('active');
 });
+
+let current = 0;
+
+setInterval(function () {
+    let divs = $('.breaking-new-list').hide();
+    divs.eq(current).fadeIn('normal');
+    if (current < divs.length - 1) current++;
+    else current = 0;
+}, 1000);
