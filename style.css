@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: var(--font-size-default);
@@ -74,5 +75,12 @@ body {
     opacity: 1;
 }
 .slick-prev:hover {
+    opacity: 1;
+}
+/* ----------------------- */
+.scroll-top {
+    opacity: 0;
+}
+.scroll-top.active {
     opacity: 1;
 }

@@ -4,6 +4,7 @@ const dropSearch = document.querySelectorAll('.drop-search');
 const navSearch = document.querySelectorAll('.nav-search');
 const mbNav = document.querySelector('.mb-nav-navbar');
 const mbIcon = document.querySelector('.mb-icon');
+const bkTop = document.querySelector('.scroll-top');
 
 dropDown.forEach((element, v) => {
     element.addEventListener('mouseleave', () => {
@@ -46,4 +47,10 @@ $(document).ready(function () {
         nextArrow:
             "<button type='button' class='slick-next pull-right'><span class='material-icons' aria-hidden='true'>navigate_next</span></button>",
     });
+});
+
+window.addEventListener('scroll', () => {
+    window.pageYOffset > 100
+        ? bkTop.classList.add('active')
+        : bkTop.classList.remove('active');
 });
